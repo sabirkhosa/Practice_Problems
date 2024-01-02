@@ -1,0 +1,10 @@
+def String_to_int(string):
+    print(type(string))
+    converted=int(string)
+    print(type(converted))
+    print(converted)
+    
+def main():
+    String_to_int("1234")
+if __name__ == "__main__":
+    main()
